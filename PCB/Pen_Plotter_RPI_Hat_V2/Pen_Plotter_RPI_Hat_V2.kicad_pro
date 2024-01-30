@@ -105,8 +105,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -117,9 +117,9 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.19999999999999998,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -473,20 +473,12 @@
       ""
     ],
     [
-      "e3e0d980-f133-4c2c-9e20-423650943e99",
-      "Power Supply"
-    ],
-    [
       "ff5e0677-c2f0-4f74-904e-e537e40f0cfa",
       "Stepper Motors"
     ],
     [
       "9a787dec-5e3d-458a-9d68-7e3e2e8f88b3",
       "Raspberry Pi"
-    ],
-    [
-      "c48eb8c4-1f4c-4f64-a39a-01b18a6a1cc8",
-      "USB"
     ]
   ],
   "text_variables": {}
