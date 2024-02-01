@@ -48,8 +48,19 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "items_not_allowed|117590000|37968500|a4dc86e8-e318-4b49-8a61-a29bdca99dde|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|117590000|86968500|ebab59b1-12ba-4485-bc3e-35f8ed040680|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|59590000|37968500|b75d32dd-9f01-4994-945b-d4a490327d35|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|59590000|86968500|bbf9fb8a-1ba5-4f76-a83d-aa6bb6681479|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +176,28 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
