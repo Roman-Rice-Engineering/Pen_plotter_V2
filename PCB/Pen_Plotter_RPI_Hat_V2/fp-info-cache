@@ -1,4 +1,4 @@
-22489189800748101
+22482396155786984
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -81246,15 +81246,15 @@ MINI560_5V
 
 
 0
-16
+10
 4
 Pen_Plotter_Lib
 MODULE_RPI3-MODBP-BULK
 
 
 0
-40
-40
+44
+41
 Pen_Plotter_Lib
 OSC_CSTLS16M0X55-A0
 
@@ -92602,31 +92602,3 @@ varistor
 0
 2
 2
-adafriot
-TE_2-1437667-9
-
-
-0
-6
-6
-adafruit-circuit-playground
-CPLAY_EXPRESS_BACK_REVD
-
-
-0
-0
-0
-adafruit-circuit-playground
-CPLAY_EXPRESS_FRONT_REVG
-
-
-0
-0
-0
-adafruit-circuit-playground
-SEWALLI
-
-
-0
-1
-1
