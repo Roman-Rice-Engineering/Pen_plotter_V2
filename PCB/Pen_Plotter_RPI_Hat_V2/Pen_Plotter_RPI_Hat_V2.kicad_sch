@@ -636,6 +636,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2a21835b-0e99-4054-a4eb-7a84be1e784a)
   )
+  (text "TODO:\n\nCheck cap diameter\nCheck extra stepper axis"
+    (at 95.25 35.56 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 45b5c5fa-f6f4-4563-8536-4c2671525814)
+  )
   (text "BARREL_JACK_12V" (at 170.18 21.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a05218a2-58b7-4064-8d7b-26f6886a4843)
