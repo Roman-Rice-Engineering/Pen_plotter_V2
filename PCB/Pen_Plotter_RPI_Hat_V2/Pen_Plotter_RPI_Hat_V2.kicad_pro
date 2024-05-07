@@ -55,10 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "missing_courtyard|72690000|89168000|bd20b66e-3e1e-4a2c-8de8-583d3c7251f9|00000000-0000-0000-0000-000000000000",
-        "missing_courtyard|98590000|62468500|dc567ba8-4535-4678-a964-1ba29b98d361|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -179,6 +176,7 @@
         0.3,
         0.5,
         1.0,
+        1.5,
         2.0,
         3.0
       ],
@@ -438,8 +436,25 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Stepper",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.0,
         "via_drill": 0.4,
         "wire_width": 6
       }
@@ -449,7 +464,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Stepper",
+        "pattern": "/Stepper Motors/*_A1*"
+      },
+      {
+        "netclass": "Stepper",
+        "pattern": "/Stepper Motors/*_A2*"
+      },
+      {
+        "netclass": "Stepper",
+        "pattern": "/Stepper Motors/*_B1*"
+      },
+      {
+        "netclass": "Stepper",
+        "pattern": "/Stepper Motors/*_B2*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
